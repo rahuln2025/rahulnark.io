@@ -8,8 +8,6 @@ tags:
   - basics
 ---
 
-# Basics of Probability
-
 For those transitioning to mathematics / machine learning from other fields, sometimes the symbols and terminologies in statistics seem intuitive but lack rigour and confidence. These basics concepts will add confidence when reading mathematical texts and research papers dealing with probabilities. 
 
 This summary of concepts comes from the lectures on 'Stochastic Methods for Material Science' conducted by Jun.-Prof. Björn Sprungk at the TU Bergakademie Freiberg, where I built my first basics of probability. 
@@ -64,7 +62,7 @@ I personally prefer the 'probability as a function' definition coming from more 
 
 #### Conditional Probability, and allied results
 
-For two events $A$ and $B$, the **conditional probability of $A$, given $B$** is defined as:
+For two events $A$ and $B$, the **conditional probability of $A\), given $B$** is defined as:
 
 $$P(A \mid B) = \frac{P(A \cap B)}{P(B)} $$
 
@@ -106,12 +104,12 @@ A random variable is a mapping $X : \Omega \rightarrow \mathbb R$.
 
 **A random variable X assigns to each outcome of a random experiment a real number**. 
 
-An actual outcome $x = X(\omega) \in \mathbb R, \omega \in \Omega$, of a random variable $X$ is called a **realization of $X$**. 
+An actual outcome $x = X(\omega) \in \mathbb R, \omega \in \Omega\), of a random variable $X$ is called a **realization of $X$**. 
 
 **Simple understanding:**
 
  - A random variable $X$ is a **function** that maps from $\Omega$ (sample space) to $\mathbb{R}$ (set of real numbers).
-- For each outcome $\omega \in \Omega$, the random variable assigns a real number $X(\omega) = x \in \mathbb{R}$.  
+- For each outcome $\omega \in \Omega$, the random variable assigns a real number $X(\omega) = x \in \mathbb{R}\).  
 - When we observe a specific outcome from an experiment, we get a **realization** $x$ of the random variable $X$.
 - **Capital letter** $X$ denotes the random variable (the function), **lowercase** $x$ denotes a specific realization (a number).
 
