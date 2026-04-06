@@ -1,11 +1,12 @@
 ---
 title: 'Future Blog Post'
-date: 2199-01-01
+date: 2026-06-15
 permalink: /posts/2012/08/blog-post-4/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - machine learning
+  - statistical learning theory
 ---
 
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+Vitamin blog post on preliminaries of Statistical Learning Theory from the lectures of Prof. Björn Sprungk at TUBAF. 
+
+<!-- This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`.  -->
